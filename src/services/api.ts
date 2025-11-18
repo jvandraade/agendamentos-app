@@ -2,7 +2,7 @@ import axios, { AxiosError } from 'axios';
 import { Agendamento, AgendamentoCreate, ApiError } from '../types';
 
 // URL base API
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:44300/api';
 
 // Axios
 const api = axios.create({
